@@ -1,3 +1,8 @@
+# Building
+Download [GCC-4.9](https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/043dc0ad16a73e0e1973132d00fa6265ab4fa6ba.tar.gz) and [Clang-r383902](https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/fb69815b96ce8dd4821078dd36ac92dde80a23e1/clang-r383902.tar.gz). Place them according to where [the kernel build script](build_kernel.sh) expects them to be.
+
+Run ./build_kernel.sh after setting the toolchains up.
+
 Linux kernel
 ============
 
